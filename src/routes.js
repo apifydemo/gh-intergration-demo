@@ -10,7 +10,7 @@ router.addDefaultHandler(async ({ enqueueLinks, log }) => {
     });
 });
 
-router.addHandler('detail', async ({ request, $, log }) => {
+router.addHandler('details', async ({ request, $, log }) => {
     const title = $('title').text();
     log.info(`${title}`, { url: request.loadedUrl });
 
