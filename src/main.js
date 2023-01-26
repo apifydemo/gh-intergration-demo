@@ -22,7 +22,7 @@ const crawler = new CheerioCrawler({
     requestHandler: router,
 });
 
-await crawler.run(somethingIsWrong);
+await crawler.run(startUrls);
 
 // Exit successfully
 await Actor.exit();
