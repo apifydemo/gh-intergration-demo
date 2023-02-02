@@ -1,6 +1,6 @@
 # CheerioCrawler project
 
-This is an example version 2.
+Example.
 This template is a production ready boilerplate for developing with `CheerioCrawler`.
 Use this to bootstrap your projects using the most up-to-date code.
 
